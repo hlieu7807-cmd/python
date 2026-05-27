@@ -3,6 +3,11 @@
         "git remote": true,
         "git add": true,
         "git commit": true,
-        "git push": true
+        "git push": true,
+        "true": true,
+        "/^cd /c/Users/huyli/GitTest/GitHubRepo/python && git status --short && echo '---' && git log -1 --oneline && echo '---' && git show --stat --name-only --no-patch HEAD && echo '---' && python basicmath\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     }
 }
